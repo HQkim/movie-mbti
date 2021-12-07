@@ -11,7 +11,7 @@
 - 영화 정보 기반 추천 서비스 구성
 - User MBTI 정보 기반 영화 추천 서비스
 - 커뮤니티 게시판 서비스 구성
-- HTML, CSS, JavaScript, Vue.js, Django, REST API, DataBase 등을 활용한 실제 서비스 설계
+- Django, REST API, DataBase, HTML, CSS, JavaScript, Vue.js  등을 활용한 실제 서비스 설계
 - 서비스 관리 및 유지 보수
 
 ### 개발 환경
@@ -35,15 +35,15 @@
 
 ### 1-a. 김현규 (본인)
 
-- Back-end
-- DFS 서버 로직 구현
+- Backend
+- DRF사용 RESTful API 서버 로직 구현
 - 기획 및 디자인
 
 ### 1-b. 장보일
 
-- Front-end
+- Frontend
 - Vue 클라이언트 구현
-- 기회 및 디자인
+- 기획 및 디자인
 
 ---
 

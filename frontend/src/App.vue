@@ -163,7 +163,7 @@
                             <input type="password" class="form-control mb-3" id="register-confirm-password" placeholder="Confirm Password" v-model="registerCredentials.passwordConfirmation">
                             <input type="email" class="form-control mb-3" id="register-email" placeholder="Email Address" v-model="registerCredentials.email">
                             <select id="mbti" class="custom-select" name="mbti" v-model="registerCredentials.mbti">
-                              <option selected>Choose MBTI</option>
+                              <option value="" selected>Choose MBTI</option>
                               <option value="ISFJ">ISTJ</option>
                               <option value="ISFJ">ISFJ</option>
                               <option value="INFJ">INFJ</option>
@@ -249,8 +249,9 @@ export default {
           }, 1000)
         })
         .then(() => {
-          console.log("새로고침 가즈아")
-          this.$router.go()
+          console.log(`자는중 다음 ${this.currentUser}`)
+          // console.log("새로고침 가즈아")
+          // this.$router.go()
         })
         .catch((err) => {
           console.log(err)
