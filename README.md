@@ -114,7 +114,7 @@
 - ID 및 비밀번호  수정
 - MBTI 정보 수정
 
-## 3. 데이터베이스 모데링(ERD)
+## 3. 데이터베이스 모델링(ERD)
 
 ![ERD.png](README(SSAFY)%20939ecad928b3467f99f33b1f6e7c7e62/ERD.png)
 
