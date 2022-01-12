@@ -30,20 +30,23 @@
     
 
 ---
-
 ## 1. 팀원 정보 및 업무 분담 내역
 
-### 1-a. 김현규 (본인)
+pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
-- Backend
-- DRF사용 RESTful API 서버 로직 구현
+### 1-a. 김현규
+
 - 기획 및 디자인
+- Front-end: Vue로 웹페이지 구현
+- Back-end: DRS 서버 로직 구현
+
+
 
 ### 1-b. 장보일
 
-- Frontend
-- Vue 클라이언트 구현
 - 기획 및 디자인
+- Front-end: Vue로 웹페이지 구현
+- Back-end: DRS 서버 로직 구현
 
 ---
 
