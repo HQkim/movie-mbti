@@ -140,7 +140,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 ![Untitled](README(SSAFY)%20939ecad928b3467f99f33b1f6e7c7e62/Untitled%202.png)
 
-- 장르 값을 Vue의 props를 통해 하위 component들에 전달해 주면 이에 해당하는 영화들만 보이도록 설
+- 장르 값을 Vue의 props를 통해 하위 component들에 전달해 주면 이에 해당하는 영화들만 보이도록 설정
 
 ### 영화 상세 페이지 및 댓글
 
@@ -159,7 +159,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 ![Untitled](README(SSAFY)%20939ecad928b3467f99f33b1f6e7c7e62/Untitled%205.png)
 
-- 게시판에 글을 불러올 때, 게시글을 쓴 유저의 usernam, mbti, 작성일자를 보여줌
+- 게시판에 글을 불러올 때, 게시글을 쓴 유저의 username, mbti, 작성일자를 보여줌
 - 게시판에 달린 코멘트의 개수도 출력
 
 ### 게시글 작성
