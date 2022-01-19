@@ -11,7 +11,7 @@
 - 영화 정보 기반 추천 서비스 구성
 - User MBTI 정보 기반 영화 추천 서비스
 - 커뮤니티 게시판 서비스 구성
-- Django, REST API, DataBase, HTML, CSS, JavaScript, Vue.js  등을 활용한 실제 서비스 설계
+- Django, Django RestFramework, DataBase, HTML, CSS, JavaScript, Vue.js  등을 활용한 실제 서비스 설계
 - 서비스 관리 및 유지 보수
 
 ### 개발 환경
@@ -38,7 +38,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 - 기획 및 디자인
 - Front-end: Vue로 웹페이지 구현
-- Back-end: DRS 서버 로직 구현
+- Back-end: DRF 서버 로직 구현
 
 
 
@@ -46,7 +46,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 - 기획 및 디자인
 - Front-end: Vue로 웹페이지 구현
-- Back-end: DRS 서버 로직 구현
+- Back-end: DRF 서버 로직 구현
 
 ---
 
