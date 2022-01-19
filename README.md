@@ -263,7 +263,7 @@ def movie_detail(request, movie_pk):
 ```
 
 - model에서 1:N관계에서 related_name을 설정 안해줬을 때 위의 serializer와 같이 설정하고 views.py를 불러오는 url로 Get요청을 했을 때 comments data가 오지 않는 오류가 발생
-- 어던 부분에서 에러가 발생한 것인지 고민하다가 model의 related_name과 serializer의 "comments"를 똑같이 설정해 주어야 오류가 발생하지 않고 data를 받을 수 있다는 사실을 알게 되었다.
+- 어떤 부분에서 에러가 발생한 것인지 고민하다가 model의 related_name과 serializer의 "comments"를 똑같이 설정해 주어야 오류가 발생하지 않고 data를 받을 수 있다는 사실을 알게 되었다.
 
 ### 5-3. 댓글 Create 과정에서 오류 발생
 
@@ -293,7 +293,7 @@ def comment_create(request):
 
 - 브라우저의 CORS 정책에 의한 오류가 발생함
 - 요청한 리소스에 Access-Control-Allow-Orgin 헤더가 없기 때문에 차단된 것 (기본적으로 SOP-Same-Origin Policy를 준수하기 떄문)
-- 따라서 서측에서 해당 설정을 진행해 주었다. 장고에서 제공하는 APP을 통해 문제를 해결한다.
+- 따라서 서버측에서 해당 설정을 진행해 주었다. 장고에서 제공하는 APP을 통해 문제를 해결한다.
     1. pip install django-cors-headers 설치후 settings.py에 등록 및 MIDDLEWARE에 추가. 
     2. CORS_ALLOWALL_ORIGINS을 TRUE 값으로 설정
     3. 다음과 같이 Response Headers를 확인하여 * 모양 확인!
