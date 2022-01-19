@@ -38,7 +38,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 - 기획 및 디자인
 - Front-end: Vue로 웹페이지 구현
-- Back-end: DRF 서버 로직 구현
+- Back-end: Django 서버 로직 구현
 
 
 
@@ -46,7 +46,7 @@ pair-programing을 통해 Backend 와 Frontend 모두 함께 진행
 
 - 기획 및 디자인
 - Front-end: Vue로 웹페이지 구현
-- Back-end: DRF 서버 로직 구현
+- Back-end: Django 서버 로직 구현
 
 ---
 
